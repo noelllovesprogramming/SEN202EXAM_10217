@@ -12,6 +12,3 @@ def manager(request):
 def intern(request):
   posts = Post.objects,all()
   return render(request, 'employees/intern.html', {'posts': posts})
-
-
-
